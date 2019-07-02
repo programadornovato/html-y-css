@@ -1,0 +1,16 @@
+.mar{
+    background-color: aqua;
+/* 
+    margin-top:100px;
+    margin-right:50px;
+    margin-bottom:200px;
+    margin-left:100px;
+     */
+    /* margin: 100px 50px 200px 100px; */
+    /* margin: 150px; */
+    margin: 200px 150px;
+}
+.pad{
+    background-color: aquamarine;
+    padding: 100px 50px 200px 100px;
+}
