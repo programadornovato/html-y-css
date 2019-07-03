@@ -1,0 +1,8 @@
+.enlinea{
+    background: tomato;
+    display: inline-block;
+}
+.enbloque{
+    background: tomato;
+    display: block;
+}
