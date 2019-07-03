@@ -1,0 +1,12 @@
+.virnes{
+    background-color: aqua;
+    color: black;
+}
+.virnes:hover{
+    background-color: black;
+    color: aqua;
+}
+.virnes:active{
+    width: 50%;
+}
+
