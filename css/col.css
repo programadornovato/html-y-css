@@ -1,0 +1,14 @@
+nav{
+    background-color: aqua;
+    padding: 20px;
+}
+.col{
+    background-color: tomato;
+    color: white;
+    padding: 20px;
+    width: 20%;
+    margin: 10px;
+}
+.contenedor{
+    display: flex;
+}
