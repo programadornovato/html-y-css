@@ -14,3 +14,13 @@ nav{
     display: flex;
     justify-content: space-around;
 }
+
+@media (max-width: 500px) {
+    nav{
+        background-color: black;
+        flex-direction: column;
+    }
+    .enlace {
+        margin: 5px 0px;
+    }
+}
