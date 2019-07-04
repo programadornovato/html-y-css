@@ -14,7 +14,9 @@ nav{
     display: flex;
     justify-content: space-around;
 }
-
+.buton-menu{
+    display: none;
+}
 @media (max-width: 500px) {
     nav{
         background-color: black;
@@ -23,4 +25,12 @@ nav{
     .enlace {
         margin: 5px 0px;
     }
+    .buton-menu{
+        background-color: tomato;
+        color: white;
+        padding: 10px 30px;    
+        display: inline-block;
+        border: tomato;
+        margin: 5px 0px;
+    }    
 }
