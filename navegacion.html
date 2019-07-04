@@ -12,12 +12,20 @@
 
 <body>
     <nav>
-        <button class="buton-menu" ><i class="fa fa-bars" aria-hidden="true"></i></button>
-        <a class="enlace" href="#">Inicio</a>
-        <a class="enlace" href="#">Nosotros</a>
-        <a class="enlace" href="#">Servicios</a>
-        <a class="enlace" href="#">Contacto</a>
+        <button class="buton-menu" onclick="mostrarOcultar()" ><i class="fa fa-bars" aria-hidden="true"></i></button>
+        <a class="enlace des" href="#">Inicio</a>
+        <a class="enlace des" href="#">Nosotros</a>
+        <a class="enlace des" href="#">Servicios</a>
+        <a class="enlace des" href="#">Contacto</a>
     </nav>
+    <script>
+        function mostrarOcultar(){
+            //alert("diste click");
+            for(var i=0;i< document.getElementsByClassName('enlace').length;i++){
+                document.getElementsByClassName('enlace')[i].classList.toggle('des');
+            }
+        }
+    </script>
 </body>
 
 </html>

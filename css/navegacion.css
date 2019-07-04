@@ -32,5 +32,8 @@ nav{
         display: inline-block;
         border: tomato;
         margin: 5px 0px;
-    }    
+    }
+    .des{
+        display: none;
+    }
 }
