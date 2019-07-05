@@ -1,5 +1,18 @@
 .con{
     margin: 0px auto;
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    text-align: center;
+}
+.precio{
+    color: darkcyan;
+    font-size: 40px;
+}
+.col{
+    background-color: #eee;
+    color: #333;
+    border: 1px solid #333;
+    margin: 10px;
+    padding: 10px;
 }
 
