@@ -3,6 +3,7 @@
     font-family: 'Roboto', sans-serif;
     display: flex;
     text-align: center;
+    flex-wrap: wrap;
 }
 .precio{
     color: darkcyan;
@@ -12,10 +13,12 @@
     background-color: #eee;
     color: #333;
     border: 1px solid #333;
-    margin: 10px;
+    margin: 0px auto;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 10px 10px 28px 0px rgba(204,204,204,1);
+    width: 23%;
+    box-sizing: border-box;
 }
 .btn-comprar{
     background-color: tomato;
@@ -27,4 +30,17 @@
 }
 .btn-comprar:hover{
     background-color: darkred;
+}
+
+@media (max-width: 900px) {
+    .col{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .col{
+        width: 90%;
+    }
 }
